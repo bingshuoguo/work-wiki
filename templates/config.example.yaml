@@ -1,0 +1,11 @@
+work_wiki:
+  timezone: local
+  maintenance_mode: autonomous
+  privacy_default: metadata_only
+  review_levels:
+    daily_capture: true
+    evidence_review: true
+    pattern_mining: true
+    growth_coaching: true
+    career_narrative: false
+
