@@ -1,10 +1,12 @@
 # Work Wiki
 
+<h2 align="center">Work Wiki: Turn your AI work traces into growth.</h2>
+
+<p align="center"><strong>An evidence-backed work review system for AI-assisted work.</strong></p>
+
 Work Wiki is a local-first, evidence-driven review framework for AI-augmented workers.
 
 It helps people who work with agents such as Codex, Claude Code, Gemini, Cursor, Antigravity, Copilot Chat, and similar tools turn daily work traces into reviews, durable knowledge, and personal growth.
-
-> Turn your AI-assisted work traces into daily reviews, durable knowledge, and personal growth.
 
 ## Why
 
