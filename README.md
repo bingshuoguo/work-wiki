@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  English | <a href="https://github.com/bingshuoguo/work-wiki/tree/zh-CN">中文</a>
+</p>
+
+<p align="center">
   A private, Markdown-first system for evidence-backed daily reviews, durable work knowledge, and better agent collaboration.
 </p>
 
