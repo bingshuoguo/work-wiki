@@ -1,9 +1,8 @@
 ---
-description: Work Wiki evidence-driven work review workflow
+description: Work Wiki 证据驱动工作复盘工作流
 alwaysApply: true
 ---
 
-Follow `AGENTS.md` for Work Wiki tasks.
+处理 Work Wiki 任务时遵循 `AGENTS.md`。
 
-When creating reviews, read private `EVIDENCE_SOURCES.md` first, follow the matching protocol under `protocols/`, and keep conclusions evidence-based. Gmail, Slack, calendar, docs, monitoring, incident, and similar sensitive providers require private registry opt-in and first-scan confirmation.
-
+创建复盘时，先读取私有 `EVIDENCE_SOURCES.md`，再遵循 `protocols/` 下对应协议，并保持结论基于证据。Gmail、Slack、calendar、docs、monitoring、incident 和类似敏感 provider 需要私有注册表 opt-in 和首次扫描确认。

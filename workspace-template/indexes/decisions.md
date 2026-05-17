@@ -1,6 +1,6 @@
 # Decisions
 
-Track durable technical, product, process, and collaboration decisions.
+追踪长期有效的技术、产品、流程和协作决策。
 
 ## Decision Template
 
@@ -10,4 +10,3 @@ Track durable technical, product, process, and collaboration decisions.
 - EvidenceRefs:
 - Consequences:
 - Review links:
-

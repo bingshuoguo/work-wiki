@@ -1,4 +1,3 @@
 # Projects
 
-Track long-running work streams, project state, and links to supporting reviews.
-
+追踪长期工作流、项目状态和支持性复盘链接。

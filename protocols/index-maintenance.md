@@ -1,29 +1,29 @@
 # Index Maintenance Protocol
 
-Indexes preserve durable knowledge across reviews.
+索引用于在多次复盘之间保存长期知识。
 
 ## When to Update Indexes
 
-Update indexes when a review contains:
+当复盘包含以下内容时，更新索引：
 
-- a durable project state change
-- a decision that will matter later
-- a reusable learning
-- a useful agent workflow
-- a repeated problem
+- 持久的 project state change
+- 之后仍重要的 decision
+- 可复用的 learning
+- 有用的 agent workflow
+- 反复出现的问题
 - skill growth evidence
 - collaboration patterns
 
-Do not update indexes for trivial daily noise.
+不要因为琐碎的每日噪声更新索引。
 
 ## Index Rules
 
-- Keep entries concise.
-- Link back to reviews when possible.
-- Record `EvidenceRefs` and uncertainty.
-- Use only reference IDs, aliases, short claims, and confidence in index entries.
-- Do not duplicate raw evidence.
-- Prefer updating existing entries over creating near-duplicates.
+- 保持 entries 简洁。
+- 尽量链接回 reviews。
+- 记录 `EvidenceRefs` 和 uncertainty。
+- 在 index entries 中只使用 reference IDs、aliases、short claims 和 confidence。
+- 不要复制原始证据。
+- 优先更新已有 entries，而不是创建近似重复项。
 
 ## Index Files
 
@@ -34,4 +34,3 @@ Do not update indexes for trivial daily noise.
 - `workflows.md`
 - `recurring-problems.md`
 - `people-and-collaboration.md`
-

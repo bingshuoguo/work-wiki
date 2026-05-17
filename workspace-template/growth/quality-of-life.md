@@ -1,4 +1,3 @@
 # Quality of Life
 
-Track work-adjacent signals such as overload, meeting pressure, repeated blockers, recovery time, and sustainable work rhythm. Keep this evidence-based and avoid storing sensitive private content by default.
-
+追踪工作相关信号，例如过载、会议压力、反复阻塞、恢复时间和可持续工作节奏。保持基于证据，默认避免存储敏感私密内容。

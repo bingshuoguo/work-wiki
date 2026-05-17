@@ -1,8 +1,8 @@
 # Solo Developer Example
 
-This example shows a lightweight Work Wiki setup for one developer using agent sessions, Git, PRs, and test artifacts.
+这个示例展示一个轻量级 Work Wiki 设置，适用于使用 agent sessions、Git、PR 和 test artifacts 的单人开发者。
 
-Recommended sources:
+推荐来源：
 
 - local agent sessions
 - local Git repositories
@@ -10,4 +10,3 @@ Recommended sources:
 - CI checks
 - test reports
 - calendar metadata for meetings and focus blocks
-

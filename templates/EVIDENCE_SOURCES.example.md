@@ -1,10 +1,10 @@
 # Evidence Sources
 
-This example shows the structure of a private `EVIDENCE_SOURCES.md` registry.
+这个示例展示私有 `EVIDENCE_SOURCES.md` 注册表的结构。
 
 Maintenance mode: autonomous.
 
-Public examples must use aliases instead of real local paths, account names, tenants, ticket keys, repositories, or provider identifiers.
+公开示例必须使用 aliases，而不是使用真实本地路径、账号名、tenant、ticket key、仓库或 provider identifiers。
 
 ## Agent Sessions
 
@@ -105,8 +105,7 @@ failure_count: 0
 
 ## Registry Notes
 
-- Agents may add, update, degrade, deactivate, or remove sources.
-- Record every source mutation in private `EVIDENCE_SOURCES_CHANGELOG.md`.
-- Reviews may reference changelog entries but must not be the only audit trail.
-- Do not store sensitive raw content here.
-
+- agent 可以添加、更新、降级、停用或移除来源。
+- 每次来源变更都记录到私有 `EVIDENCE_SOURCES_CHANGELOG.md`。
+- 复盘可以引用 changelog entries，但不能把复盘当作唯一审计记录。
+- 不要在这里存储敏感原始内容。

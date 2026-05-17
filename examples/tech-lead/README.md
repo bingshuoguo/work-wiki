@@ -1,8 +1,8 @@
 # Tech Lead Example
 
-This example shows a Work Wiki setup for a tech lead whose output includes design decisions, code review, planning, meetings, and unblock work.
+这个示例展示一个适用于 tech lead 的 Work Wiki 设置。该角色的产出包括设计决策、代码评审、规划、会议和 unblock 工作。
 
-Recommended sources:
+推荐来源：
 
 - agent sessions
 - Git repositories and pull requests
@@ -11,4 +11,3 @@ Recommended sources:
 - email or chat metadata
 - design docs
 - CI and deployment status
-

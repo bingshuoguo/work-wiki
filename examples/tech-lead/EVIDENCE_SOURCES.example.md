@@ -21,4 +21,3 @@ provider_alias: work-calendar
 privacy: sensitive_metadata_only
 failure_count: 0
 ```
-

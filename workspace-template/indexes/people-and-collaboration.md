@@ -1,4 +1,3 @@
 # People and Collaboration
 
-Track collaboration patterns, stakeholders, review sources, and communication load. Do not store private message bodies by default.
-
+追踪协作模式、stakeholders、review sources 和 communication load。默认不存储私密消息正文。

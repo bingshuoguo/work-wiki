@@ -1,14 +1,13 @@
 # Provider Access Contract
 
-Sensitive providers are disabled by default.
+敏感 provider 默认禁用。
 
-Every provider that can expose private workplace or personal information must follow this contract:
+任何可能暴露私密工作或个人信息的 provider 都必须遵守以下 contract：
 
-- Explicit opt-in: the source must be listed in private `EVIDENCE_SOURCES.md` before scanning.
-- Read-only access: Work Wiki agents may inspect evidence but must not mutate external systems unless a separate user request explicitly asks for that.
-- No token storage: tokens, cookies, API keys, OAuth refresh tokens, and session secrets must never be written to the repository.
-- Tenant boundary: provider entries must identify the intended account, workspace, organization, or tenant by alias, not by secret or raw token.
-- Scope minimization: request or use the smallest practical scope, such as metadata-only email/calendar access when full content is unnecessary.
-- Scan confirmation: before first scan of Gmail, Slack, Teams, Feishu, Google Drive, Confluence, Notion, monitoring, incident, or similar sensitive systems, confirm that the source is intentionally enabled in the private registry.
-- Publish-safe output: summaries must avoid raw private content unless the user explicitly asks to include it.
-
+- Explicit opt-in: 扫描前，来源必须列在私有 `EVIDENCE_SOURCES.md` 中。
+- Read-only access: Work Wiki agent 可以检查证据，但除非用户提出单独请求，否则不得修改外部系统。
+- No token storage: token、cookie、API key、OAuth refresh token 和 session secret 绝不能写入仓库。
+- Tenant boundary: provider entries 必须用 alias 标识目标账号、workspace、organization 或 tenant，而不是 secret 或 raw token。
+- Scope minimization: 请求或使用实际需要的最小 scope，例如 full content 不必要时使用 metadata-only email/calendar access。
+- Scan confirmation: 首次扫描 Gmail、Slack、Teams、Feishu、Google Drive、Confluence、Notion、monitoring、incident 或类似敏感系统前，确认该来源已在私有注册表中有意启用。
+- Publish-safe output: 除非用户明确要求包含原始私密内容，否则 summary 必须避免这些内容。

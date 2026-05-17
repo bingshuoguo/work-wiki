@@ -1,6 +1,5 @@
 # Gemini Instructions
 
-Follow [AGENTS.md](./AGENTS.md).
+遵循 [AGENTS.md](./AGENTS.md)。
 
-Use Work Wiki protocols for evidence-driven daily, weekly, and monthly review. Prefer local evidence first, preserve privacy, and record uncertainty under `Evidence Integrity`. Sensitive providers require private registry opt-in and first-scan confirmation.
-
+使用 Work Wiki 协议进行证据驱动的每日、周度和月度复盘。优先使用本地证据，保护隐私，并在 `Evidence Integrity` 下记录不确定性。敏感 provider 需要私有注册表 opt-in 和首次扫描确认。

@@ -70,4 +70,3 @@
 - Operational coverage:
 - Evidence source registry changes:
 - Uncertain items:
-

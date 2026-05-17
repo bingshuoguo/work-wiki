@@ -1,16 +1,16 @@
 # Monthly Review Protocol
 
-Monthly reviews synthesize weekly reviews and indexes into capability growth and work quality trends.
+月度复盘将周度复盘和索引综合为能力增长和工作质量趋势。
 
 ## Workflow
 
-1. Read weekly reviews for the target month.
-2. Read daily reviews only when weekly evidence is incomplete.
-3. Read `indexes/` and `growth/`.
-4. Identify major outcomes, skill growth, repeated bottlenecks, collaboration load, and quality-of-life signals.
-5. Update long-lived indexes.
-6. Update goals, scorecard, and coaching notes.
-7. Write the review under `reviews/monthly/YYYY-MM.md`.
+1. 阅读目标月份的周度复盘。
+2. 只有在周度证据不完整时才阅读每日复盘。
+3. 阅读 `indexes/` 和 `growth/`。
+4. 识别 major outcomes、skill growth、repeated bottlenecks、collaboration load 和 quality-of-life signals。
+5. 更新长期 indexes。
+6. 更新 goals、scorecard 和 coaching notes。
+7. 将复盘写到 `reviews/monthly/YYYY-MM.md`。
 
 ## Output Format
 
@@ -68,4 +68,3 @@ Monthly reviews synthesize weekly reviews and indexes into capability growth and
 - Weak evidence:
 - Source gaps:
 ```
-

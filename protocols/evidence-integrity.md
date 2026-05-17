@@ -1,8 +1,8 @@
 # Evidence Integrity Protocol
 
-Evidence integrity explains how trustworthy a review is.
+Evidence integrity 解释一篇复盘的可信程度。
 
-Every review must state what was checked, what was missing, what failed, and what remains uncertain.
+每篇复盘都必须说明检查了什么、缺失了什么、什么失败了，以及什么仍不确定。
 
 ## Coverage Categories
 
@@ -20,22 +20,22 @@ Every review must state what was checked, what was missing, what failed, and wha
 
 ## Conflict Handling
 
-If sources conflict, report the conflict instead of forcing a conclusion.
+如果来源之间冲突，报告冲突，而不是强行得出结论。
 
-Examples:
+示例：
 
-- Session says tests passed, but CI failed.
-- Git shows no commit, but session describes implementation.
-- Ticket status is done, but PR is unmerged.
-- Email mentions approval, but deployment evidence is missing.
+- Session 显示 tests passed，但 CI failed。
+- Git 没有 commit，但 session 描述了 implementation。
+- Ticket status 是 done，但 PR 未合并。
+- Email 提到 approval，但缺少 deployment evidence。
 
 ## Confidence
 
-Use high, medium, or low confidence language. Avoid false precision.
+使用 high、medium 或 low 置信度语言。避免虚假的精确性。
 
 ## EvidenceRef
 
-Use lightweight evidence references instead of copying raw evidence:
+使用轻量级证据引用，而不是复制原始证据：
 
 ```yaml
 id: ev-2026-05-16-001
@@ -51,9 +51,8 @@ privacy: metadata_only
 claim: Agent ran verification command for the reviewed task.
 ```
 
-Rules:
+规则：
 
-- `source_id` must match a private registry entry.
-- `locator_alias` must be publish-safe or private to the workspace.
-- Do not include secret URLs, raw tokens, private message bodies, or large code excerpts.
-
+- `source_id` 必须匹配私有注册表 entry。
+- `locator_alias` 必须 publish-safe，或仅在私有 workspace 内可见。
+- 不要包含 secret URL、raw token、private message bodies 或 large code excerpts。

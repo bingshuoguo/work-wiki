@@ -1,4 +1,3 @@
 # Coaching Notes
 
-Capture evidence-backed coaching observations from weekly and monthly reviews.
-
+从周度和月度复盘中记录有证据支撑的 coaching observations。

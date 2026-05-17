@@ -21,4 +21,3 @@ locator_alias: SOLO_MAIN_REPO
 privacy: local_only
 failure_count: 0
 ```
-

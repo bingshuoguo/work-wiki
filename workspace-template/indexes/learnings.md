@@ -1,4 +1,3 @@
 # Learnings
 
-Track reusable technical, process, and collaboration learning.
-
+追踪可复用的技术、流程和协作经验。

@@ -1,6 +1,6 @@
 # Architecture
 
-Work Wiki uses a Markdown-first architecture:
+Work Wiki 使用 Markdown-first 架构：
 
 ```text
 Source Discovery
@@ -13,15 +13,15 @@ Source Discovery
 
 ## Source Discovery
 
-Source discovery happens during initialization and opportunistically during reviews. Agents look for available sources such as local agent sessions, Git repositories, PR systems, ticket systems, email, calendar, chat, documentation, test artifacts, deployment systems, and monitoring systems.
+来源发现发生在初始化期间，也会在复盘过程中按需发生。agent 会寻找可用来源，例如本地 agent session、Git 仓库、PR 系统、ticket 系统、email、calendar、chat、documentation、test artifacts、deployment systems 和 monitoring systems。
 
 ## Evidence Sources Registry
 
-Private `EVIDENCE_SOURCES.md` is the source registry. It records where agents should look next time. Public repositories should ship only `EVIDENCE_SOURCES.example.md`.
+私有 `EVIDENCE_SOURCES.md` 是来源注册表。它记录 agent 下次应该去哪里找证据。公开仓库只应提供 `EVIDENCE_SOURCES.example.md`。
 
 ## Review Artifacts
 
-Reviews are the main user-facing artifacts:
+复盘是主要面向用户的 artifacts：
 
 ```text
 reviews/
@@ -30,11 +30,11 @@ reviews/
   monthly/
 ```
 
-Daily reviews capture evidence-backed work threads. Weekly and monthly reviews mine patterns from accumulated daily reviews.
+每日复盘捕捉有证据支撑的工作线程。周度和月度复盘从累积的每日复盘中挖掘模式。
 
 ## Knowledge Indexes
 
-Indexes are the wiki-inspired layer:
+索引是受 wiki 启发的知识层：
 
 ```text
 indexes/
@@ -47,11 +47,11 @@ indexes/
   people-and-collaboration.md
 ```
 
-Indexes store durable synthesis, not raw data.
+索引存放长期综合，而不是原始数据。
 
 ## Growth Loop
 
-Growth artifacts convert patterns into behavior change:
+Growth artifacts 将模式转化为行为改变：
 
 ```text
 growth/
@@ -61,4 +61,3 @@ growth/
   coaching-notes.md
   quality-of-life.md
 ```
-

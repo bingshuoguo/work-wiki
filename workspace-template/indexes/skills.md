@@ -8,4 +8,3 @@
 - Current level:
 - Gaps:
 - Next training action:
-

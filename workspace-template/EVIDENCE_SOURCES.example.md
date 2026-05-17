@@ -1,10 +1,10 @@
 # Evidence Sources
 
-This example shows the structure of a private `EVIDENCE_SOURCES.md` registry.
+这个示例展示私有 `EVIDENCE_SOURCES.md` 注册表的结构。
 
 Maintenance mode: autonomous.
 
-Public examples must use aliases instead of real local paths, account names, tenants, ticket keys, repositories, or provider identifiers.
+公开示例必须使用 aliases，而不是使用真实本地路径、账号名、tenant、ticket key、仓库或 provider identifiers。
 
 ## Agent Sessions
 
@@ -33,4 +33,3 @@ privacy: local_only
 last_verified:
 failure_count: 0
 ```
-

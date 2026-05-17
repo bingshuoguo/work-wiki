@@ -1,31 +1,31 @@
 # Evidence Model
 
-Work Wiki distinguishes evidence type, confidence, source coverage, and evidence references.
+Work Wiki 区分证据类型、置信度、来源覆盖情况和证据引用。
 
 ## Evidence Types
 
-- Agent session evidence: prompts, tool calls, commands, file references, decisions, and review loops.
-- Git evidence: branches, commits, diffs, changed files, stash, and untracked files.
-- Delivery evidence: pull requests, reviews, CI checks, merge status, deployments.
-- Requirement evidence: tickets, issues, acceptance criteria, status changes, blockers.
-- Communication evidence: email, chat, meeting notes, and review threads.
-- Calendar evidence: meetings, planning blocks, interviews, reviews, and focus time.
-- Documentation evidence: design docs, runbooks, notes, decisions, and comments.
-- Quality evidence: test reports, coverage, traces, screenshots, benchmarks, failure logs.
-- Operational evidence: alerts, dashboards, incidents, releases, rollbacks, feature flags.
+- Agent session evidence: prompts、tool calls、commands、file references、decisions 和 review loops。
+- Git evidence: branches、commits、diffs、changed files、stash 和 untracked files。
+- Delivery evidence: pull requests、reviews、CI checks、merge status 和 deployments。
+- Requirement evidence: tickets、issues、acceptance criteria、status changes 和 blockers。
+- Communication evidence: email、chat、meeting notes 和 review threads。
+- Calendar evidence: meetings、planning blocks、interviews、reviews 和 focus time。
+- Documentation evidence: design docs、runbooks、notes、decisions 和 comments。
+- Quality evidence: test reports、coverage、traces、screenshots、benchmarks 和 failure logs。
+- Operational evidence: alerts、dashboards、incidents、releases、rollbacks 和 feature flags。
 
 ## Source Status
 
-- `pending`: discovered or configured but not verified.
-- `active`: scan normally.
-- `degraded`: scan only when relevant or likely fixed.
-- `auth_required`: skip until credentials or connector access changes.
-- `inactive`: skip unless the user asks to retry.
-- `removed`: no longer used; keep only in changelog or historical notes.
+- `pending`: 已发现或已配置，但尚未验证。
+- `active`: 正常扫描。
+- `degraded`: 仅在相关或可能已恢复时扫描。
+- `auth_required`: 跳过，直到凭证或 connector 访问发生变化。
+- `inactive`: 跳过，除非用户要求重试。
+- `removed`: 不再使用；只保留在 changelog 或历史说明中。
 
 ## EvidenceRef
 
-Use lightweight evidence references instead of raw copied evidence:
+使用轻量级证据引用，而不是复制原始证据：
 
 ```yaml
 id: ev-2026-05-16-001
@@ -39,21 +39,20 @@ privacy: metadata_only
 claim: Agent ran verification command for the reviewed task.
 ```
 
-Reviews and indexes should cite `EvidenceRef` IDs, aliases, claims, and confidence. They should not include raw private content by default.
+复盘和索引应引用 `EvidenceRef` ID、alias、claim 和 confidence。默认不应包含原始私密内容。
 
 ## Confidence
 
-- High: direct evidence from durable artifacts such as commits, PRs, test reports, tickets, or session transcripts.
-- Medium: partial evidence from summaries, metadata, referenced links, or indirect artifacts.
-- Low: weak evidence, incomplete access, ambiguous timestamps, or inferred context.
+- High: 来自 commit、PR、test report、ticket 或 session transcript 等持久 artifact 的直接证据。
+- Medium: 来自 summary、metadata、referenced link 或间接 artifact 的部分证据。
+- Low: 证据较弱、访问不完整、时间戳含糊或上下文需要推断。
 
 ## Fact Language
 
-- Observed: directly supported by evidence.
-- Inferred: likely based on multiple signals, but not directly stated.
-- Uncertain: possible but not well supported.
+- Observed: 由证据直接支持。
+- Inferred: 基于多个信号很可能成立，但并非直接陈述。
+- Uncertain: 可能成立，但支持不足。
 
 ## Evidence Integrity
 
-Every review should include coverage for AI sessions, Git, PR/CI, requirements, communication, calendar, documentation, test artifacts, operations, registry changes, and uncertain items.
-
+每篇复盘都应包含 AI sessions、Git、PR/CI、requirements、communication、calendar、documentation、test artifacts、operations、registry changes 和 uncertain items 的覆盖情况。

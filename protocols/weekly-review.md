@@ -1,16 +1,16 @@
 # Weekly Review Protocol
 
-Weekly reviews synthesize daily reviews into patterns.
+周度复盘将每日复盘综合为模式。
 
 ## Workflow
 
-1. Read daily reviews for the target week.
-2. Read relevant indexes and growth artifacts.
-3. Identify completed outcomes, partial work, blockers, repeated problems, learning, collaboration load, and verification quality.
-4. Update indexes with durable patterns.
-5. Evaluate active experiments.
-6. Propose at most two experiments for next week.
-7. Write the review under `reviews/weekly/YYYY-MM/week-N.md`, where `week-N` uses ISO week number.
+1. 阅读目标周的每日复盘。
+2. 阅读相关 indexes 和 growth artifacts。
+3. 识别 completed outcomes、partial work、blockers、repeated problems、learning、collaboration load 和 verification quality。
+4. 用长期模式更新 indexes。
+5. 评估 active experiments。
+6. 为下周最多提出两个 experiments。
+7. 将复盘写到 `reviews/weekly/YYYY-MM/week-N.md`，其中 `week-N` 使用 ISO week number。
 
 ## Output Format
 
@@ -67,4 +67,3 @@ Weekly reviews synthesize daily reviews into patterns.
 - Weak evidence:
 - Source gaps:
 ```
-

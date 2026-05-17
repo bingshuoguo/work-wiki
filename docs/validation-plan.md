@@ -1,20 +1,20 @@
 # V0 Validation Plan
 
-Run these checks before publishing a Work Wiki release.
+发布 Work Wiki release 前运行这些检查。
 
 ## Required Checks
 
-1. File presence: all required docs, protocols, templates, examples, and workspace-template files exist.
-2. Privacy defaults: `.gitignore` and `workspace-template/.gitignore` ignore real `EVIDENCE_SOURCES.md`, `EVIDENCE_SOURCES_CHANGELOG.md`, `.cache/`, `.local/`, and `raw/`.
-3. Example-only registry: public templates use `EVIDENCE_SOURCES.example.md` and alias fields instead of real local paths.
-4. Provider safety: docs include opt-in, read-only, no-token-storage, tenant-boundary, and metadata-first rules.
-5. Registry audit: all source mutation rules require changelog entries.
-6. State machine: source statuses and transition rules are documented.
-7. EvidenceRef: docs define how reviews and indexes cite evidence without copying raw evidence.
-8. Review templates: daily, weekly, and monthly templates include `Evidence Integrity`.
-9. Index/growth templates: workspace template includes skills, recurring problems, workflows, experiments, scorecard, and quality-of-life files.
-10. Publish-safety scan: repository contains no real secrets, local user paths, private provider identifiers, or raw evidence samples.
-11. Adoption smoke test: copy `workspace-template/` into a temporary private workspace, create private registry/changelog from examples, create daily/weekly/monthly review artifacts from templates, and verify `Evidence Integrity`, index files, and growth files exist.
+1. File presence: 所需 docs、protocols、templates、examples 和 workspace-template 文件都存在。
+2. Privacy defaults: `.gitignore` 和 `workspace-template/.gitignore` 忽略真实 `EVIDENCE_SOURCES.md`、`EVIDENCE_SOURCES_CHANGELOG.md`、`.cache/`、`.local/` 和 `raw/`。
+3. Example-only registry: 公开模板使用 `EVIDENCE_SOURCES.example.md` 和 alias 字段，而不是真实本地路径。
+4. Provider safety: 文档包含 opt-in、read-only、no-token-storage、tenant-boundary 和 metadata-first 规则。
+5. Registry audit: 所有来源变更规则都要求写入 changelog。
+6. State machine: 来源状态和转换规则已文档化。
+7. EvidenceRef: 文档定义了复盘和索引如何引用证据，而不复制原始证据。
+8. Review templates: daily、weekly 和 monthly 模板包含 `Evidence Integrity`。
+9. Index/growth templates: workspace template 包含 skills、recurring problems、workflows、experiments、scorecard 和 quality-of-life 文件。
+10. Publish-safety scan: 仓库不包含真实 secret、本地用户路径、私有 provider 标识符或原始证据样例。
+11. Adoption smoke test: 将 `workspace-template/` 复制到临时私有工作区，从 examples 创建私有 registry/changelog，创建 daily/weekly/monthly review artifacts，并确认 `Evidence Integrity`、index files 和 growth files 存在。
 
 ## Commands
 
@@ -28,11 +28,11 @@ find . -type f -not -path './.git/*' -not -path './docs/validation-plan.md' -pri
 git check-ignore EVIDENCE_SOURCES.md EVIDENCE_SOURCES_CHANGELOG.md .cache/x .local/x raw/x
 ```
 
-For negative `rg` scans, exit code 1 with no output means the scan is clean.
+对于 negative `rg` scans，exit code 1 且无输出表示扫描干净。
 
 ## Release Gate
 
-Public release must stop for explicit confirmation before pushing:
+公开发布前必须停下来明确确认：
 
 - host
 - namespace / owner
@@ -43,5 +43,4 @@ Public release must stop for explicit confirmation before pushing:
 - validation status
 - publish-safety scan status
 
-Do not publish if any item is unknown or validation is not clean.
-
+如果任何项目未知，或验证不干净，不要发布。

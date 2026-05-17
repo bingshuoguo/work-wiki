@@ -7,4 +7,3 @@
 - Context switching:
 - Collaboration load:
 - Energy signal:
-
