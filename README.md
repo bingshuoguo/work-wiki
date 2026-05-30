@@ -75,9 +75,16 @@ Work Wiki is not an app server or hosted service. It is a portable set of Markdo
 
 1. Copy `workspace-template/` into a private workspace.
 2. Open that workspace with your preferred agent.
-3. Copy `EVIDENCE_SOURCES.example.md` to `EVIDENCE_SOURCES.md`.
-4. Copy `EVIDENCE_SOURCES_CHANGELOG.example.md` to `EVIDENCE_SOURCES_CHANGELOG.md`.
-5. Ask your agent:
+3. If your agent supports repository-local commands, type:
+
+   ```text
+   /init
+   ```
+
+   This asks the agent to scan local evidence first and create or update private `EVIDENCE_SOURCES.md` and `EVIDENCE_SOURCES_CHANGELOG.md`.
+
+4. If your agent does not support repository-local `/init` commands, copy `EVIDENCE_SOURCES.example.md` to `EVIDENCE_SOURCES.md` and copy `EVIDENCE_SOURCES_CHANGELOG.example.md` to `EVIDENCE_SOURCES_CHANGELOG.md`.
+5. You can also ask your agent:
 
    ```text
    Initialize my Work Wiki evidence sources. Use local sources first,

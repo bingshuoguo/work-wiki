@@ -2,13 +2,15 @@
 
 Use this repository as a Markdown-first framework for evidence-driven work review.
 
-When the user asks to initialize Work Wiki:
+When the user types `/init` or asks to initialize Work Wiki:
 
 1. Read `protocols/evidence-source-maintenance.md`.
 2. Read `protocols/provider-access-contract.md`.
-3. Discover local-only sources first.
-4. Create or update private `EVIDENCE_SOURCES.md`.
-5. Record registry changes in private `EVIDENCE_SOURCES_CHANGELOG.md`.
+3. Read `templates/EVIDENCE_SOURCES.example.md` and `templates/EVIDENCE_SOURCES_CHANGELOG.example.md`.
+4. Discover local-only sources first.
+5. Create or update private `EVIDENCE_SOURCES.md`.
+6. Record registry changes in private `EVIDENCE_SOURCES_CHANGELOG.md`.
+7. Summarize added, updated, skipped, and uncertain sources.
 
 When the user asks for a daily review:
 
@@ -34,4 +36,3 @@ Default safety rules:
 - Prefer metadata, links, counts, timestamps, and short summaries.
 - Distinguish observed evidence from inference.
 - If a source cannot be read, continue with available evidence and record the gap.
-

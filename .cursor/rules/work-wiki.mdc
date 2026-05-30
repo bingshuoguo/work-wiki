@@ -5,5 +5,6 @@ alwaysApply: true
 
 Follow `AGENTS.md` for Work Wiki tasks.
 
-When creating reviews, read private `EVIDENCE_SOURCES.md` first, follow the matching protocol under `protocols/`, and keep conclusions evidence-based. Gmail, Slack, calendar, docs, monitoring, incident, and similar sensitive providers require private registry opt-in and first-scan confirmation.
+When the user types `/init`, follow `.cursor/rules/init-workwiki.mdc` to initialize the private evidence source registry.
 
+When creating reviews, read private `EVIDENCE_SOURCES.md` first, follow the matching protocol under `protocols/`, and keep conclusions evidence-based. Gmail, Slack, calendar, docs, monitoring, incident, and similar sensitive providers require private registry opt-in and first-scan confirmation.
