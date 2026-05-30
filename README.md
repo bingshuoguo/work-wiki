@@ -1,5 +1,7 @@
 # Work Wiki
 
+![Work Wiki cover: evidence-backed memory for AI-assisted work](assets/work-wiki-cover.png)
+
 <p align="center">
   <strong>Work Wiki: Turn your AI work traces into growth.</strong>
 </p>
