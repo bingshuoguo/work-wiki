@@ -1,5 +1,7 @@
 # Work Wiki
 
+![Work Wiki 封面：面向 AI 辅助工作的证据化记忆系统](assets/work-wiki-cover-zh-CN.png)
+
 <p align="center">
   <strong>Work Wiki: Turn your AI work traces into growth.</strong>
 </p>
