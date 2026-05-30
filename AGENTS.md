@@ -2,13 +2,15 @@
 
 将本仓库作为一个 Markdown-first 的框架，用于进行证据驱动的工作复盘。
 
-当用户要求初始化 Work Wiki 时：
+当用户输入 `/init` 或要求初始化 Work Wiki 时：
 
 1. 阅读 `protocols/evidence-source-maintenance.md`。
 2. 阅读 `protocols/provider-access-contract.md`。
-3. 优先发现本地来源。
-4. 创建或更新私有 `EVIDENCE_SOURCES.md`。
-5. 在私有 `EVIDENCE_SOURCES_CHANGELOG.md` 中记录注册表变更。
+3. 阅读 `templates/EVIDENCE_SOURCES.example.md` 和 `templates/EVIDENCE_SOURCES_CHANGELOG.example.md`。
+4. 优先发现本地来源。
+5. 创建或更新私有 `EVIDENCE_SOURCES.md`。
+6. 在私有 `EVIDENCE_SOURCES_CHANGELOG.md` 中记录注册表变更。
+7. 总结新增、更新、跳过和不确定的来源。
 
 当用户要求每日复盘时：
 
